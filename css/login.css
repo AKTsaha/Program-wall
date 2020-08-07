@@ -21,6 +21,7 @@
     left: 35%;
     background: black;
     opacity: 80%;
+    border-radius: 10px;
    
 }
 .top-text{
@@ -36,7 +37,7 @@
     font-weight: 200;
     position: absolute;
     left: 7%;
-    top: 25%;
+    top: 23%;
 }
 .mid-text-2{
     color: white;
@@ -44,7 +45,7 @@
     font-weight: 200;
     position: absolute;
     left: 7%;
-    top: 45%;
+    top: 43%;
 }
 .mid-text-3{
     color: white;
@@ -67,12 +68,12 @@
 .uname{
     position: absolute;
     left: 15%;
-    top:35%;
+    top:33%;
 }
 .uemail{
     position: absolute;
     left: 15%;
-    top:55%;
+    top:53%;
 }
 .upassword{
     position: absolute;
