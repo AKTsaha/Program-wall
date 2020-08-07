@@ -5,7 +5,7 @@
 }
 
 body {
-    background:white;
+    background: white;
 }
 
 .top {
@@ -55,10 +55,10 @@ body {
     margin: 15px;
     padding: 10px;
     border-style: solid;
-    border-color: #ac00e6;
+    border-color: #ff6600;
     border-width: 3px;
     border-radius: 10%;
-    color: #ac00e6;
+    color: #ff6600;
     font-size: 30px;
     font-weight: 300;
     text-decoration-line: none;
@@ -68,12 +68,13 @@ body {
 .button-top:hover {
     border-style: solid;
     border-width: 3px;
-    border-color: #ac00e6;
+    border-color: #ff6600;
     border-radius: 10%;
-    background: #ac00e6;
+    background: #ff6600;
     color: white;
     cursor: pointer;
 }
+
 .bottom-button-flex {
     flex-direction: row;
     align-items: center;
@@ -112,9 +113,9 @@ body {
     cursor: pointer;
 }
 
-.contain { 
+.contain {
     position: relative;
-     width: 75%;
+    width: 75%;
     left: 10%;
     margin-top: 30px;
     border-style: solid;

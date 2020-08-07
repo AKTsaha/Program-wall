@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.bg-wall {
+    background-image: url("../image/h4.jpg");
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 120%;
+    background-size: 100% 100%;
+    filter: blur(5px);
+}
+.login-box{
+    position: fixed;
+    height: 600px;
+    width: 500px;
+    top: 10%;
+    left: 35%;
+    background: black;
+    opacity: 80%;
+   
+}
+.top-text{
+    color: white;
+    font-size: 80px;
+    font-weight: 300;
+    position: absolute;
+    left: 35%;
+}
+.mid-text-1{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    position: absolute;
+    left: 7%;
+    top: 25%;
+}
+.mid-text-2{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    position: absolute;
+    left: 7%;
+    top: 45%;
+}
+.mid-text-3{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    position: absolute;
+    left: 7%;
+    top: 63%;
+}
+.input{
+    background: black;
+    width: 350px;
+    height: 35px;
+    border-style: solid;
+    border-color: #ff6600;
+    outline: none;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.uname{
+    position: absolute;
+    left: 15%;
+    top:35%;
+}
+.uemail{
+    position: absolute;
+    left: 15%;
+    top:55%;
+}
+.upassword{
+    position: absolute;
+    left: 15%;
+    top:73%;
+}
+.submit-but{
+    position: absolute;
+    left: 35%;
+    top: 82%;
+    width: 140px;
+    height: 80px;
+    background: green;
+    border-style: none;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
