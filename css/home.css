@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+body {
+    background:white;
+}
+
+.top {
+    margin: 0;
+    position: relative;
+    top: 0;
+    background-image: url("../image/h2.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 700px;
+
+}
+
+#headline {
+    padding: 0;
+    color: #ff6600;
+    //color: white;
+    font-size: 100px;
+    font-weight: 800;
+    position: absolute;
+    top: 23%;
+    left: 32%;
+}
+
+#sub-headline {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: white;
+    font-size: 30px;
+
+}
+
+.top-button-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-decoration: none;
+}
+
+.button-top {
+    margin: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #ac00e6;
+    border-width: 3px;
+    border-radius: 10%;
+    color: #ac00e6;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration-line: none;
+    transition-duration: 0.45s;
+}
+
+.button-top:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ac00e6;
+    border-radius: 10%;
+    background: #ac00e6;
+    color: white;
+    cursor: pointer;
+}
+.bottom-button-flex {
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 13px;
+    left: 400px;
+    text-decoration: none;
+}
+
+.button-bottom {
+    margin: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: hidden;
+    //border-color: #ac00e6;
+    border-width: 3px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-style: hidden;
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    text-decoration-line: none;
+
+}
+
+.button-bottom {
+    // border-style: solid;
+    // border-width: 3px;
+    //border-color: white;
+    //border-top-right-radius: 10%;
+    //border-top-left-radius: 10%;
+    //background: white;
+    //color: #ac00e6;
+    cursor: pointer;
+}
+
+.contain { 
+    position: relative;
+     width: 75%;
+    left: 10%;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 5px 0 10px #cccccc;
+    background: white;
+}
+
+.pinin {
+    position: absolute;
+    top: 67%;
+    left: 34%;
+    height: 35px;
+    width: 250px;
+    background: white;
+    border-style: hidden;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    align-content: center;
+}
+
+.button-pin {
+    position: absolute;
+    top: 67%;
+    left: 52%;
+    height: 35px;
+    width: 150px;
+    background: #00cc00;
+    border-style: hidden;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
