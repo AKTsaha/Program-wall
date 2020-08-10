@@ -10,7 +10,7 @@
 <body>
     <div class="bg-wall"></div>
     <div class="login-box">
-        <form action="" method="post">
+        <form action="registraton.php" method="post">
             <h1 class="top-text">Signin</h1>
             <h3 class="mid-text-1">Username</h3>
             <input name="uname" type="text" class="input uname">

@@ -15,9 +15,9 @@
 }
 .login-box{
     position: fixed;
-    height: 450px;
+    height: 600px;
     width: 500px;
-    top: 15%;
+    top: 10%;
     left: 35%;
     background: black;
     opacity: 80%;
@@ -37,7 +37,7 @@
     font-weight: 200;
     position: absolute;
     left: 7%;
-    top: 30%;
+    top: 23%;
 }
 .mid-text-2{
     color: white;
@@ -45,7 +45,15 @@
     font-weight: 200;
     position: absolute;
     left: 7%;
-    top: 55%;
+    top: 43%;
+}
+.mid-text-3{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    position: absolute;
+    left: 7%;
+    top: 63%;
 }
 .input{
     background: black;
@@ -62,17 +70,22 @@
 .uname{
     position: absolute;
     left: 15%;
-    top:40%;
+    top:33%;
+}
+.uemail{
+    position: absolute;
+    left: 15%;
+    top:53%;
 }
 .upassword{
     position: absolute;
     left: 15%;
-    top:65%;
+    top:73%;
 }
 .submit-but{
     position: absolute;
     left: 35%;
-    bottom: 5%;
+    top: 82%;
     width: 140px;
     height: 80px;
     background: green;

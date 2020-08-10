@@ -12,11 +12,9 @@
     <div class="login-box">
         <form action="" method="post">
             <h1 class="top-text">Login</h1>
-            <h3 class="mid-text-1">Username</h3>
+            <h3 class="mid-text-1">Username / Email</h3>
             <input name="uname" type="text" class="input uname">
-            <h3 class="mid-text-2">Email</h3>
-            <input name="uemail" type="email" class="input uemail">
-            <h3 class="mid-text-3">Password</h3>
+            <h3 class="mid-text-2">Password</h3>
             <input name="upassword" type="password" class="input upassword">
             <input type="submit" class="submit-but">
         </form>
