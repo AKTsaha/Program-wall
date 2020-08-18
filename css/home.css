@@ -1,7 +1,6 @@
 * {
     margin: 0;
     font-family: 'Dosis', sans-serif;
-
 }
 
 body {
@@ -120,13 +119,14 @@ body {
     margin-top: 30px;
     border-style: solid;
     border-color: white;
+    box-shadow: 5px 0 0 #cccccc;
     background: white;
     align-items: center;
 }
 
 .items {
     position: relative;
-    height: 580px;
+    height: 600px;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -160,7 +160,7 @@ body {
     background-size: 100% 100%;
     position: absolute;
     width: 100%;
-    height: 430px;
+    height: 450px;
     top: 70px;
     border-color: #999999;
 }
@@ -214,4 +214,7 @@ body {
     border-radius: 10px;
     outline: none;
     cursor: pointer;
+}
+.button-pin:active{
+    background: #009900;
 }

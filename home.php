@@ -15,7 +15,7 @@
         <div class="top-button-flex">
 
             <a class="button-top" href="php/login.php">login</a>
-            <a class="button-top" href="signup.html">signup</a>
+            <a class="button-top" href="php/signup.php">signup</a>
 
         </div>
         <div class="bottom-button-flex">

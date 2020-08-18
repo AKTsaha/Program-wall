@@ -1,13 +1,15 @@
 <?php 
-$username="\"".$_REQUEST['uname']."\"";
-$email="\"".$_REQUEST['uemail']."\"";
-$password="\"".$_REQUEST['upassword']."\"";
 $mysql_host = 'localhost'; 
 $mysql_user = 'root'; 
 $mysql_password = '';
 $mysql_database='program_wall';
 $mysql_table='accounts'; 
-echo $username." ".$email." ".$password;
+function insert($username,$email,$password){
+
+    $query="INSERT INTO accounts (username,email,password) VALUE ($username,$email,$password)";
+
+}
+
 function recive($id,$username,$email,$password)
 {
 
@@ -30,19 +32,13 @@ function recive($id,$username,$email,$password)
 $con=mysqli_connect("$mysql_host","$mysql_user","$mysql_password");
 
 if($con) 
-{	
+{	echo "Connected to server<br>";
    
    	   if(mysqli_select_db($con,$mysql_database))
-	    {		      
-             $query="INSERT INTO accounts (username,email,password) VALUE (".$username.",".$email.",".$password.")";
-             if(mysqli_query($con,$query))
-             {
-                    include '../home.html';
-             }
-             else
-            {
-                    echo $query." ".mysqli_error($con);
-            }
+	    {		
+		     echo "Database selected<br>";      
+               
+        
 	       
         }
         else
